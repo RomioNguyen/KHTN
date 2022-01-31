@@ -1,9 +1,8 @@
-﻿using System;
-using System.Configuration;
+﻿using System.Configuration;
 using System.IO;
 using System.Reflection;
 
-namespace BT1_1981223.Sevices.File
+namespace BT1_1981223_20880263.Sevices.File
 {
     public class FileServices : IFileServices
     {

@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace BT1_1981223.Models
+namespace BT1_1981223_20880263.Models
 {
     public class AdjacencyMatrix
     {

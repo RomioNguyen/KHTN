@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace BT1_1981223.Sevices.AdjacencyMatrix
+namespace BT1_1981223_20880263.Sevices.AdjacencyMatrix
 {
     public class AdjacencyMatrixServices : IAdjacencyMatrixServices
     {
@@ -22,20 +18,18 @@ namespace BT1_1981223.Sevices.AdjacencyMatrix
             }
             return !rs;
         }
-
+        // câu 1
         public void runDigraphMatrix(Models.AdjacencyMatrix matrix)
         {
             matrix.ShowMatrix();
             this.PrintTypeMatrix(false);
             this.PrintTotalVertices(matrix);
-
             int[] InDegree = new int[matrix.n];
             int[] OutDegree = new int[matrix.n];
             this.CountPeakDegree(ref InDegree, ref OutDegree, matrix);
             this.PrintTotalEdge(InDegree, false);
             var parallelEdge = this.PrintTotalParallelEdge(matrix, false);
             this.PrintTotalLoopEdge(matrix);
-
             int[] PeakDegree = new int[matrix.n];
             for (int i = 0; i < matrix.n; ++i)
                 PeakDegree[i] = InDegree[i] + InDegree[i];
@@ -44,7 +38,7 @@ namespace BT1_1981223.Sevices.AdjacencyMatrix
             this.PrintDegreeInOutDegree(matrix, InDegree, OutDegree);
             this.PrintTypeBasicGraph(0, parallelEdge);
         }
-
+        // câu 1
         public void runUnDigraphMatrix(Models.AdjacencyMatrix matrix)
         {
             matrix.ShowMatrix();
@@ -59,9 +53,21 @@ namespace BT1_1981223.Sevices.AdjacencyMatrix
             this.PrintTotalIsolatedVertex(PeakDegree);
             this.PrintDegreeEachVertex(matrix, PeakDegree);
             this.PrintTypeBasicGraph(loopEdge, parallelEdge);
-
         }
-
+        // câu 2
+        public void runSimpleMatrix(Models.AdjacencyMatrix matrix)
+        {
+            matrix.ShowMatrix();
+            this.PrintIsSymmetry(this.isSymmetry(matrix));
+            this.IsCompleteGraph(matrix);
+            this.IsRegularGraph(matrix);
+            this.IsCycleGraph(matrix);
+        }
+        // in ra ma trận đối xứng hay không
+        private void PrintIsSymmetry(bool isSymmetry = true)
+        {
+            Console.WriteLine($"Ma tran {(isSymmetry == false ? "khong " : "")}doi xung");
+        }
 
         #region private function
         // in ra loại ma trận
@@ -103,7 +109,7 @@ namespace BT1_1981223.Sevices.AdjacencyMatrix
         // in ra số đỉnh cô lập
         private void PrintTotalIsolatedVertex(int[] PeakDegree)
         {
-            Console.WriteLine($"So dinh cô lap: {this.CountIsolatedVertex(PeakDegree)}");
+            Console.WriteLine($"So dinh co lap: {this.CountIsolatedVertex(PeakDegree)}");
         }
 
         // in ra bậc của từng đỉnh
@@ -130,7 +136,7 @@ namespace BT1_1981223.Sevices.AdjacencyMatrix
             else
             {
                 if (totalParallelEdge > 0)
-                    Console.WriteLine($"{(isSymmetry? "Da do thi co huong" : "Da do thi")}" );
+                    Console.WriteLine($"{(isSymmetry ? "Da do thi co huong" : "Da do thi")}");
                 else
                     Console.WriteLine($"{(isSymmetry ? "Do thi co huong" : "Don do thi")}");
             }
@@ -225,6 +231,101 @@ namespace BT1_1981223.Sevices.AdjacencyMatrix
                 if (PeakDegree[i] == 0)
                     rs++;
             return rs;
+        }
+        // kiểm tra đầy đủ
+        public bool IsCompleteGraph(Models.AdjacencyMatrix matrix)
+        {
+            bool kiemtra = true;
+            if (matrix.a[0, 0] == 1 && matrix.n == 1)
+            {
+                Console.WriteLine("Do thi la do thi day du K1");
+                return kiemtra;
+            }
+            for (int i = 0; i < matrix.n; i++)
+            {
+                for (int j = 0; j < matrix.n; j++)
+                {
+                    if (matrix.a[i, j] == 1 && i == j)
+                    {
+                        kiemtra = false;
+                    }
+                    if (matrix.a[i, j] == 0 && i != j)
+                    {
+                        kiemtra = false;
+                    }
+                }
+            }
+
+            if (kiemtra == true)
+            {
+                Console.WriteLine($"Do thi la do thi day du K{matrix.n}");
+            }
+            else
+            {
+                Console.WriteLine("Do thi khong phai do thi day du");
+            }
+            return kiemtra;
+        }
+        // Kiểm tra chính quy
+        public bool IsRegularGraph(Models.AdjacencyMatrix matrix)
+        {
+            bool kiemtra = true;
+            int deg = 0;
+            for (int i = 0; i < matrix.n; i++)
+            {
+                for (int j = i + 1; j < matrix.n; j++)
+                {
+                    if (deg_v(matrix, i) != deg_v(matrix, j))
+                    {
+                        kiemtra = false;
+                    }
+                }
+                deg = deg_v(matrix, i);
+            }
+            if (kiemtra == true)
+            {
+                Console.WriteLine($"Do thi la do thi {deg} - chinh quy");
+            }
+            else
+            {
+                Console.WriteLine("Do thi khong phai la do thi chinh quy");
+            }
+            return kiemtra;
+        }
+        // Kiểm tra vòng
+        public bool IsCycleGraph(Models.AdjacencyMatrix matrix)
+        {
+            bool kiemtra = true;
+            for (int i = 0; i < matrix.n; i++)
+            {
+                if (deg_v(matrix, i) != 2)
+                {
+                    kiemtra = false;
+                }
+            }
+            if (kiemtra == true)
+            {
+                Console.WriteLine($"Do thi la do thi vong C{matrix.n}");
+            }
+            else
+            {
+                Console.WriteLine("Do thi khong phai la do thi vong");
+            }
+            return kiemtra;
+        }
+        public int deg_v(Models.AdjacencyMatrix matrix, int x)
+        {
+            int[] b = new int[matrix.n];
+            for (int i = 0; i < matrix.n; i++)
+            {
+                int count = 0;
+                for (int j = 0; j < matrix.n; j++)
+                {
+                    count += matrix.a[i, j];
+                }
+                b[i] = count;
+            }
+            return b[x];
         }
         #endregion
     }
