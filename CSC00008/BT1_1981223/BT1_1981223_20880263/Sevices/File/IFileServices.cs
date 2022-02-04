@@ -3,5 +3,6 @@
     public interface IFileServices
     {
         string GetUrlFile(string fileName);
+        string[] GetArrayUrl(string key);
     }
 }

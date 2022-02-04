@@ -63,13 +63,14 @@ namespace BT1_1981223_20880263.Sevices.AdjacencyMatrix
             this.IsRegularGraph(matrix);
             this.IsCycleGraph(matrix);
         }
+
+        #region private function
         // in ra ma trận đối xứng hay không
         private void PrintIsSymmetry(bool isSymmetry = true)
         {
             Console.WriteLine($"Ma tran {(isSymmetry == false ? "khong " : "")}doi xung");
         }
 
-        #region private function
         // in ra loại ma trận
         private void PrintTypeMatrix(bool isDigraph = true)
         {
