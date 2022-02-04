@@ -8,8 +8,10 @@ namespace BT1_1981223_20880263
     {
         private readonly string KEY_QUESTIONS_1 = "Question1";
         private readonly string KEY_QUESTIONS_2 = "Question2";
-        private readonly string URL_QUESTION_1 = "C:\\Users\\Admin\\study\\KHTN\\CSC00008\\BT1_1981223\\BT1_1981223_20880263\\DataQuestion\\question1_digrapth.txt";
-        private readonly string URL_QUESTION_2 = "C:\\Users\\Admin\\study\\KHTN\\CSC00008\\BT1_1981223\\BT1_1981223_20880263\\DataQuestion\\question2_adjacencymatrix.txt";
+        private readonly string URL_QUESTION_1 = "";
+        private readonly string URL_QUESTION_2 = "";
+        //private readonly string URL_QUESTION_1 = "C:\\Users\\Admin\\study\\KHTN\\CSC00008\\BT1_1981223\\BT1_1981223_20880263\\DataQuestion\\question1_digrapth.txt";
+        //private readonly string URL_QUESTION_2 = "C:\\Users\\Admin\\study\\KHTN\\CSC00008\\BT1_1981223\\BT1_1981223_20880263\\DataQuestion\\question2_adjacencymatrix.txt";
 
         private readonly IQuestionServices _questionServices;
         private readonly IFileServices _fileServices;
