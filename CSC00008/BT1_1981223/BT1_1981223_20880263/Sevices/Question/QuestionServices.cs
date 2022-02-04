@@ -16,19 +16,26 @@ namespace BT1_1981223_20880263.Sevices
             _fileServices = new File.FileServices();
             _maxtrixServices = new AdjacencyMatrix.AdjacencyMatrixServices();
         }
-        public void RunQuestion1(string fileName)
+        public void RunQuestion1(string fileName, bool isUseDataQuestion = true)
         {
-            matrix = new Models.AdjacencyMatrix(_fileServices.GetUrlFile(fileName));
+            this.GetMatrix(fileName, isUseDataQuestion);
             if (_maxtrixServices.isSymmetry(matrix))
                 _maxtrixServices.runDigraphMatrix(matrix);
             else
                 _maxtrixServices.runUnDigraphMatrix(matrix);
         }
-
-        public void RunQuestion2(string fileName)
+        public void RunQuestion2(string fileName, bool isUseDataQuestion = true)
         {
-            matrix = new Models.AdjacencyMatrix(_fileServices.GetUrlFile(fileName));
+            this.GetMatrix(fileName, isUseDataQuestion);
             _maxtrixServices.runSimpleMatrix(matrix);
+        }
+
+        private void GetMatrix(string fileName, bool isFileName)
+        {
+            if (isFileName)
+                matrix = new Models.AdjacencyMatrix(_fileServices.GetUrlFile(fileName));
+            else
+                matrix = new Models.AdjacencyMatrix(fileName);
         }
     }
 }

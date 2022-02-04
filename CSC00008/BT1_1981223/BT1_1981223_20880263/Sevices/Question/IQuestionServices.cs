@@ -2,8 +2,8 @@
 {
     public interface IQuestionServices
     {
-        void RunQuestion1(string fileName);
-        void RunQuestion2(string fileName);
-        
+        void RunQuestion1(string fileName, bool isUseDataQuestion = true);
+        void RunQuestion2(string fileName, bool isUseDataQuestion = true);
+
     }
 }
