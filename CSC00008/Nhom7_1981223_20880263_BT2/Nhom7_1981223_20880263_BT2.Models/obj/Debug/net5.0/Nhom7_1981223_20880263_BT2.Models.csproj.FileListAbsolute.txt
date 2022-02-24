@@ -1,0 +1,11 @@
+C:\Users\Admin\study\KHTN\CSC00008\Nhom7_1981223_20880263_BT2\Nhom7_1981223_20880263_BT2.Models\bin\Debug\net5.0\Nhom7_1981223_20880263_BT2.Models.deps.json
+C:\Users\Admin\study\KHTN\CSC00008\Nhom7_1981223_20880263_BT2\Nhom7_1981223_20880263_BT2.Models\bin\Debug\net5.0\Nhom7_1981223_20880263_BT2.Models.dll
+C:\Users\Admin\study\KHTN\CSC00008\Nhom7_1981223_20880263_BT2\Nhom7_1981223_20880263_BT2.Models\bin\Debug\net5.0\ref\Nhom7_1981223_20880263_BT2.Models.dll
+C:\Users\Admin\study\KHTN\CSC00008\Nhom7_1981223_20880263_BT2\Nhom7_1981223_20880263_BT2.Models\bin\Debug\net5.0\Nhom7_1981223_20880263_BT2.Models.pdb
+C:\Users\Admin\study\KHTN\CSC00008\Nhom7_1981223_20880263_BT2\Nhom7_1981223_20880263_BT2.Models\obj\Debug\net5.0\Nhom7_1981223_20880263_BT2.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\study\KHTN\CSC00008\Nhom7_1981223_20880263_BT2\Nhom7_1981223_20880263_BT2.Models\obj\Debug\net5.0\Nhom7_1981223_20880263_BT2.Models.AssemblyInfoInputs.cache
+C:\Users\Admin\study\KHTN\CSC00008\Nhom7_1981223_20880263_BT2\Nhom7_1981223_20880263_BT2.Models\obj\Debug\net5.0\Nhom7_1981223_20880263_BT2.Models.AssemblyInfo.cs
+C:\Users\Admin\study\KHTN\CSC00008\Nhom7_1981223_20880263_BT2\Nhom7_1981223_20880263_BT2.Models\obj\Debug\net5.0\Nhom7_1981223_20880263_BT2.Models.csproj.CoreCompileInputs.cache
+C:\Users\Admin\study\KHTN\CSC00008\Nhom7_1981223_20880263_BT2\Nhom7_1981223_20880263_BT2.Models\obj\Debug\net5.0\Nhom7_1981223_20880263_BT2.Models.dll
+C:\Users\Admin\study\KHTN\CSC00008\Nhom7_1981223_20880263_BT2\Nhom7_1981223_20880263_BT2.Models\obj\Debug\net5.0\ref\Nhom7_1981223_20880263_BT2.Models.dll
+C:\Users\Admin\study\KHTN\CSC00008\Nhom7_1981223_20880263_BT2\Nhom7_1981223_20880263_BT2.Models\obj\Debug\net5.0\Nhom7_1981223_20880263_BT2.Models.pdb
