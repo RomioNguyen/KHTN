@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Nhom7_1981223_20880263_BT2.Models\Nhom7_1981223_20880263_BT2.Models.csproj" />
+  </ItemGroup>
+
+</Project>

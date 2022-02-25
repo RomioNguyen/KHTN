@@ -148,6 +148,19 @@
           }
         }
       },
+      "Nhom7_1981223_20880263_BT2.Algorithms/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Nhom7_1981223_20880263_BT2.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Nhom7_1981223_20880263_BT2.Algorithms.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nhom7_1981223_20880263_BT2.Algorithms.dll": {}
+        }
+      },
       "Nhom7_1981223_20880263_BT2.Interfaces/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -488,6 +501,11 @@
         "version.txt"
       ]
     },
+    "Nhom7_1981223_20880263_BT2.Algorithms/1.0.0": {
+      "type": "project",
+      "path": "../Nhom7_1981223_20880263_BT2.Algorithms/Nhom7_1981223_20880263_BT2.Algorithms.csproj",
+      "msbuildProject": "../Nhom7_1981223_20880263_BT2.Algorithms/Nhom7_1981223_20880263_BT2.Algorithms.csproj"
+    },
     "Nhom7_1981223_20880263_BT2.Interfaces/1.0.0": {
       "type": "project",
       "path": "../Nhom7_1981223_20880263_BT2.Interfaces/Nhom7_1981223_20880263_BT2.Interfaces.csproj",
@@ -501,6 +519,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Nhom7_1981223_20880263_BT2.Algorithms >= 1.0.0",
       "Nhom7_1981223_20880263_BT2.Interfaces >= 1.0.0",
       "System.Configuration.ConfigurationManager >= 5.0.0"
     ]
@@ -529,6 +548,7 @@
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://pkgs.dev.azure.com/AltSourceInternal/_packaging/AltSourceInternal%40Local/nuget/v3/index.json": {}
       },
@@ -536,6 +556,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "C:\\Users\\Admin\\study\\KHTN\\CSC00008\\Nhom7_1981223_20880263_BT2\\Nhom7_1981223_20880263_BT2.Algorithms\\Nhom7_1981223_20880263_BT2.Algorithms.csproj": {
+              "projectPath": "C:\\Users\\Admin\\study\\KHTN\\CSC00008\\Nhom7_1981223_20880263_BT2\\Nhom7_1981223_20880263_BT2.Algorithms\\Nhom7_1981223_20880263_BT2.Algorithms.csproj"
+            },
             "C:\\Users\\Admin\\study\\KHTN\\CSC00008\\Nhom7_1981223_20880263_BT2\\Nhom7_1981223_20880263_BT2.Interfaces\\Nhom7_1981223_20880263_BT2.Interfaces.csproj": {
               "projectPath": "C:\\Users\\Admin\\study\\KHTN\\CSC00008\\Nhom7_1981223_20880263_BT2\\Nhom7_1981223_20880263_BT2.Interfaces\\Nhom7_1981223_20880263_BT2.Interfaces.csproj"
             }

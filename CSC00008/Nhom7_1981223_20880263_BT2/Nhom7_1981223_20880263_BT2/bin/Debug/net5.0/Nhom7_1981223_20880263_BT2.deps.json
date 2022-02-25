@@ -126,6 +126,14 @@
           }
         }
       },
+      "Nhom7_1981223_20880263_BT2.Algorithms/1.0.0": {
+        "dependencies": {
+          "Nhom7_1981223_20880263_BT2.Models": "1.0.0"
+        },
+        "runtime": {
+          "Nhom7_1981223_20880263_BT2.Algorithms.dll": {}
+        }
+      },
       "Nhom7_1981223_20880263_BT2.Interfaces/1.0.0": {
         "dependencies": {
           "Nhom7_1981223_20880263_BT2.Models": "1.0.0"
@@ -141,6 +149,7 @@
       },
       "Nhom7_1981223_20880263_BT2.Services/1.0.0": {
         "dependencies": {
+          "Nhom7_1981223_20880263_BT2.Algorithms": "1.0.0",
           "Nhom7_1981223_20880263_BT2.Interfaces": "1.0.0",
           "System.Configuration.ConfigurationManager": "5.0.0"
         },
@@ -218,6 +227,11 @@
       "sha512": "sha512-c1ho9WU9ZxMZawML+ssPKZfdnrg/OjR3pe0m9v8230z3acqphwvPJqzAkH54xRYm5ntZHGG1EPP3sux9H3qSPg==",
       "path": "system.windows.extensions/5.0.0",
       "hashPath": "system.windows.extensions.5.0.0.nupkg.sha512"
+    },
+    "Nhom7_1981223_20880263_BT2.Algorithms/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Nhom7_1981223_20880263_BT2.Interfaces/1.0.0": {
       "type": "project",

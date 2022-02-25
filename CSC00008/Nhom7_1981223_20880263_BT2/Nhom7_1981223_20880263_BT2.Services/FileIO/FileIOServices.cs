@@ -1,4 +1,5 @@
 ﻿using Nhom7_1981223_20880263_BT2.Interfaces.FileIO;
+using System.Collections.Generic;
 using System.Configuration;
 using System.IO;
 using System.Reflection;
@@ -19,6 +20,18 @@ namespace Nhom7_1981223_20880263_BT2.Services.FileIO
                 return arrayName.Split(SPECIAL_CHARACTER);
             }
             return new string[1] { arrayName };
+        }
+
+        public string[] GetArrayUrlFileFromPath(string path)
+        {
+            List<string> rs = new List<string>();
+            DirectoryInfo d = new DirectoryInfo(path);
+            FileInfo[] Files = d.GetFiles($"*.{ConfigurationManager.AppSettings.Get(EXTENSION)}");
+            foreach (FileInfo file in Files)
+            {
+                rs.Add(file.FullName);
+            }
+            return rs.ToArray();
         }
 
         public string GetUrlFile(string fileName)

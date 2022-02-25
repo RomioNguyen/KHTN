@@ -148,6 +148,19 @@
           }
         }
       },
+      "Nhom7_1981223_20880263_BT2.Algorithms/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Nhom7_1981223_20880263_BT2.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Nhom7_1981223_20880263_BT2.Algorithms.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nhom7_1981223_20880263_BT2.Algorithms.dll": {}
+        }
+      },
       "Nhom7_1981223_20880263_BT2.Interfaces/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -175,6 +188,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "Nhom7_1981223_20880263_BT2.Algorithms": "1.0.0",
           "Nhom7_1981223_20880263_BT2.Interfaces": "1.0.0",
           "System.Configuration.ConfigurationManager": "5.0.0"
         },
@@ -502,6 +516,11 @@
         "version.txt"
       ]
     },
+    "Nhom7_1981223_20880263_BT2.Algorithms/1.0.0": {
+      "type": "project",
+      "path": "../Nhom7_1981223_20880263_BT2.Algorithms/Nhom7_1981223_20880263_BT2.Algorithms.csproj",
+      "msbuildProject": "../Nhom7_1981223_20880263_BT2.Algorithms/Nhom7_1981223_20880263_BT2.Algorithms.csproj"
+    },
     "Nhom7_1981223_20880263_BT2.Interfaces/1.0.0": {
       "type": "project",
       "path": "../Nhom7_1981223_20880263_BT2.Interfaces/Nhom7_1981223_20880263_BT2.Interfaces.csproj",
@@ -548,6 +567,7 @@
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://pkgs.dev.azure.com/AltSourceInternal/_packaging/AltSourceInternal%40Local/nuget/v3/index.json": {}
       },
@@ -583,6 +603,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.13, 5.0.13]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

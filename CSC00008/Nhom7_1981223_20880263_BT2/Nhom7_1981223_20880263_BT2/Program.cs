@@ -10,7 +10,7 @@ namespace Nhom7_1981223_20880263_BT2
     {
         private readonly string KEY_QUESTIONS = "Question";
         private readonly string URL_QUESTION = "";
-        //private readonly string URL_QUESTION = "C:\\Users\\Admin\\study\\KHTN\\CSC00008\\BT1_1981223\\BT1_1981223_20880263\\AppData\\question1_digrapth.txt";
+        //private readonly string URL_QUESTION = "C:\\Users\\Admin\\study\\KHTN\\CSC00008\\Nhom7_1981223_20880263_BT2\\Nhom7_1981223_20880263_BT2\\AppData";
 
         private readonly IQuestionBT2Services _questionServices;
         private readonly IFileIOServices _fileServices;
@@ -23,10 +23,14 @@ namespace Nhom7_1981223_20880263_BT2
         {
             Console.WriteLine("Start program BT2 Nhom 7: 1981223, 20880263!");
             Program _pro = new Program();
-            RunQuestion(_pro, _pro.KEY_QUESTIONS);
+            if (_pro.URL_QUESTION == "")
+                RunQuestion(_pro, _pro.KEY_QUESTIONS);
+            else
+                RunQuestion(_pro, _pro.URL_QUESTION, false);
         }
         private static void RunQuestion(Program pro, string keyQuestion, bool isFolderDataQuestion = true)
         {
+            var i = 0;
             Console.WriteLine("_________________________________________");
             Console.WriteLine($"__________***** Cau hoi BT 2 *****__________");
             if (isFolderDataQuestion)
@@ -34,14 +38,14 @@ namespace Nhom7_1981223_20880263_BT2
                 var arrKey = pro._fileServices.GetArrayUrl(keyQuestion);
                 if (arrKey.Length > 0)
                 {
-                    var i = 0;
+         
                     foreach (string fileName in arrKey)
                     {
                         if (arrKey.Length > 1)
                         {
                             i++;
                             Console.WriteLine("_________________________________________");
-                            Console.WriteLine($"**Do thi {i}");
+                            Console.WriteLine($"**Vi du {i}");
                         }
                         StartRunQuestion(pro, fileName, isFolderDataQuestion);
                     }
@@ -49,14 +53,22 @@ namespace Nhom7_1981223_20880263_BT2
             }
             else
             {
-                StartRunQuestion(pro, keyQuestion,  isFolderDataQuestion);
+                var arrPaths = pro._fileServices.GetArrayUrlFileFromPath(keyQuestion);
+                foreach (string path in arrPaths)
+                {
+                    i++;
+                    Console.WriteLine("_________________________________________");
+                    Console.WriteLine($"**Vi du {i}");
+                    StartRunQuestion(pro, path, isFolderDataQuestion);
+                }
             }
 
         }
 
-        private static void StartRunQuestion(Program pro, string fileName,  bool isFolderDataQuestion = true)
+        private static void StartRunQuestion(Program pro, string fileName, bool isFolderDataQuestion = true)
         {
             pro._questionServices.Run(fileName, isFolderDataQuestion);
+            Console.WriteLine();
         }
     }
 }

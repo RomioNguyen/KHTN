@@ -4,5 +4,7 @@
     {
         string GetUrlFile(string fileName);
         string[] GetArrayUrl(string key);
+
+        string[] GetArrayUrlFileFromPath(string path);
     }
 }

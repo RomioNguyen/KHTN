@@ -6,10 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="AppData\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Nhom7_1981223_20880263_BT2.Interfaces\Nhom7_1981223_20880263_BT2.Interfaces.csproj" />
     <ProjectReference Include="..\Nhom7_1981223_20880263_BT2.Services\Nhom7_1981223_20880263_BT2.Services.csproj" />
   </ItemGroup>

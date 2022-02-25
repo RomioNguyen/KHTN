@@ -43,14 +43,14 @@ namespace Nhom7_1981223_20880263_BT2.Models.Entities
         }
         public void ShowMatrix()
         {
-            Console.WriteLine(n);
-            Console.WriteLine($"{start} {goal}");
+            Console.WriteLine($"So dinh: {n}");
             for (int i = 0; i < n; ++i)
             {
                 for (int j = 0; j < n; ++j)
                     Console.Write(a[i, j] + " ");
                 Console.WriteLine();
             }
+            Console.WriteLine($"Duong di: {start} -> {goal}");
         }
     }
 }

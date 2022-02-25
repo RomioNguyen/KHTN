@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Nhom7_1981223_20880263_BT2.Algorithms/1.0.0": {
+        "dependencies": {
+          "Nhom7_1981223_20880263_BT2.Models": "1.0.0"
+        },
+        "runtime": {
+          "Nhom7_1981223_20880263_BT2.Algorithms.dll": {}
+        }
+      },
+      "Nhom7_1981223_20880263_BT2.Models/1.0.0": {
+        "runtime": {
+          "Nhom7_1981223_20880263_BT2.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Nhom7_1981223_20880263_BT2.Algorithms/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Nhom7_1981223_20880263_BT2.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

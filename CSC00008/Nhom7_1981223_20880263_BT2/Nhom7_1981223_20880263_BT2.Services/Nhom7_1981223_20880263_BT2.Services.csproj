@@ -9,6 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Nhom7_1981223_20880263_BT2.Algorithms\Nhom7_1981223_20880263_BT2.Algorithms.csproj" />
     <ProjectReference Include="..\Nhom7_1981223_20880263_BT2.Interfaces\Nhom7_1981223_20880263_BT2.Interfaces.csproj" />
   </ItemGroup>
 
