@@ -6,6 +6,7 @@ class ExerciseBase {
     constructor(_key) {
         this.key = _key;
         this.q = new Entity(_key, this.validate, this.answer);
+
     }
 
     validate(key, value) {

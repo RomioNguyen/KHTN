@@ -17,11 +17,11 @@ module.exports = {
         console.log(`${key} need a number`)
         return false;
     },
-    numBigger: (value, max = 0) => {
+    numBigger: (value, min = 0) => {
         const n = int_try_parse(value, null);
         if (n) {
-            if (n < max) return true
-            console.log(`Your input need bigger than ${max}`);
+            if (n > min) return true
+            console.log(`Your input need bigger than ${min}`);
             return false;
         } else {
             console.log('Your input need a number')

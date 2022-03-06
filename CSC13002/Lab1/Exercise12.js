@@ -2,9 +2,9 @@
 const ExerciseBase = require('./services/ExerciseBase');
 const validateUtils = require("./utils/validate");
 
-class Exercise11 extends ExerciseBase {
+class Exercise12 extends ExerciseBase {
     constructor() {
-        super('q11')
+        super('q12')
     }
 
     validate(key, value) {
@@ -13,15 +13,10 @@ class Exercise11 extends ExerciseBase {
 
     answer(params) {
         let sum = 0;
-        const findVolumeFrom1ToN = (n) => {
-            let rsVolume = 1;
-            for (let i = 1; i <= n; i++)
-                rsVolume = rsVolume * i;
-        }
         for (let i = 1; i <= params.n; i++)
-            sum += findVolumeFrom1ToN(i)
-        console.log(`S(n) = ${sum}`);
+            sum += (params.x ** i)
+        console.log(`T(x, n) = ${sum}`);
     }
 }
 
-module.exports = (new Exercise11()).start();
+module.exports = (new Exercise12()).start();

@@ -28,7 +28,7 @@ class QServices {
                     await this.ask(keyParams[i], params[keyParams[i]]);
                 }
             }
-            this.q.fnAnswer(this.params);
+            this.q.fnAnswer(this.params, this);
         }
 
     }

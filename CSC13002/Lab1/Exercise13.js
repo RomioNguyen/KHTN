@@ -2,9 +2,9 @@
 const ExerciseBase = require('./services/ExerciseBase');
 const validateUtils = require("./utils/validate");
 
-class Exercise12 extends ExerciseBase {
+class Exercise13 extends ExerciseBase {
     constructor() {
-        super('q12')
+        super('q13')
     }
 
     validate(key, value) {
@@ -14,9 +14,9 @@ class Exercise12 extends ExerciseBase {
     answer(params) {
         let sum = 0;
         for (let i = 1; i <= params.n; i++)
-            sum += (params.x ** i)
+            sum += (params.x ** (2 * i))
         console.log(`T(x, n) = ${sum}`);
     }
 }
 
-module.exports = (new Exercise12()).start();
+module.exports = (new Exercise13()).start();

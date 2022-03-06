@@ -2,21 +2,27 @@
 const ExerciseBase = require('./services/ExerciseBase');
 const validateUtils = require("./utils/validate");
 
-class Exercise10 extends ExerciseBase {
+class Exercise11 extends ExerciseBase {
     constructor() {
-        super('q10')
+        super('q11')
     }
 
     validate(key, value) {
-        if (validateUtils.isNumber(value))
-            return true
-        console.log(`${key} need a number`)
-        return false;
+        return validateUtils.isNumber(key, value);
     }
 
     answer(params) {
-        console.log(`T(x, n) = ${(params.x ** params.n)}`);
+        let sum = 0;
+        const findVolumeFrom1ToN = (n) => {
+            let rsVolume = 1;
+            for (let i = 1; i <= n; i++)
+                rsVolume = rsVolume * i;
+            return rsVolume;
+        }
+        for (let i = 1; i <= params.n; i++)
+            sum += findVolumeFrom1ToN(i)
+        console.log(`S(n) = ${sum}`);
     }
 }
 
-module.exports = (new Exercise10()).start();
+module.exports = (new Exercise11()).start();

@@ -73,4 +73,16 @@ module.exports = {
             n: 'Nhap n ',
         }
     },
+    q29: {
+        content: 'Chuong trinh tim chuoi dai nhat',
+        params: {
+            n: 'Nhap so tu trong tu dien ',
+        }
+    },
+    q30: {
+        content: 'Chuong trinh kiem tra chuoi co cac ky tu duy nhat',
+        params: {
+            s: 'Nhap chuoi ',
+        }
+    }
 }

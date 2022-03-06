@@ -8,10 +8,7 @@ class Exercise10 extends ExerciseBase {
     }
 
     validate(key, value) {
-        if (validateUtils.isNumber(value))
-            return true
-        console.log(`${key} need a number`)
-        return false;
+        return validateUtils.isNumber(key, value);
     }
 
     answer(params) {

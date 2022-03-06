@@ -2,9 +2,9 @@
 const ExerciseBase = require('./services/ExerciseBase');
 const validateUtils = require("./utils/validate");
 
-class Exercise19 extends ExerciseBase {
+class Exercise20 extends ExerciseBase {
     constructor() {
-        super('q19')
+        super('q20')
     }
 
     validate(key, value) {
@@ -33,4 +33,4 @@ class Exercise19 extends ExerciseBase {
     }
 }
 
-module.exports = (new Exercise19()).start();
+module.exports = (new Exercise20()).start();
