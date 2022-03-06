@@ -60,4 +60,17 @@ module.exports = {
             n: 'Nhap n ',
         }
     },
+    q11: {
+        content: 'Tinh S(n) = 1 + 1*2 + 1*2*3 + … + 1*2*3…*n',
+        params: {
+            n: 'Nhap n ',
+        }
+    },
+    q12: {
+        content: ' T(x, n) = x + x^2 + x^3 + … + x^n',
+        params: {
+            x: 'Nhap x ',
+            n: 'Nhap n ',
+        }
+    },
 }

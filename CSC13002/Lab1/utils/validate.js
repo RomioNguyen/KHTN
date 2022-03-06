@@ -11,7 +11,12 @@ const int_try_parse = function (val, default_val) {
     return default_val;
 }
 module.exports = {
-    isNumber: (value) => int_try_parse(value, null),
+    isNumber: (value, key) => {
+        if (int_try_parse(value, null))
+            return true
+        console.log(`${key} need a number`)
+        return false;
+    },
     numBigger: (value, max = 0) => {
         const n = int_try_parse(value, null);
         if (n) {
