@@ -13,7 +13,6 @@ class QEnty {
             this.fnAnswer = answer;
         }
     }
-
     getParams() {
         return this.q?.params || null;
     }

@@ -2,21 +2,21 @@
 const ExerciseBase = require('./services/ExerciseBase');
 const validateUtils = require("./utils/validate");
 
-class Exercise01 extends ExerciseBase {
+class Exercise09 extends ExerciseBase {
     constructor() {
-        super('q1')
+        super('q9')
     }
 
     validate(key, value) {
-        return validateUtils.numBetween(value, 3, 50);
+        return validateUtils.numBigger(value, 6);
     }
 
     answer(params) {
-        let sum = 0;
+        let rs = 1;
         for (let i = 1; i <= params.n; i++)
-            sum += i;
-        console.log(`S(n) = ${sum}`);
+            rs = rs * i;
+        console.log(`S(n) = ${rs}`);
     }
 }
 
-module.exports = (new Exercise01()).start();
+module.exports = (new Exercise09()).start();
