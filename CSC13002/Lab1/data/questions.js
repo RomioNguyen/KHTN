@@ -73,6 +73,30 @@ module.exports = {
             n: 'Nhap n ',
         }
     },
+    q24: {
+        content: 'Chuong trinh tim vi tri cua mot gia tri trong mot mang da duoc sap xep. Neu khong tim thay, thi them gia tri nay vao vi tri duoc sap xep trong mang.',
+        params: {
+            n: 'Nhap so phan tu: ',
+        }
+    },
+    q25: {
+        content: 'Chuong trinh tim phan tu co gia tri giua nhat trong mot mang',
+        params: {
+            n: 'Nhap so phan tu: ',
+        }
+    },
+    q26: {
+        content: 'Chuong trinh tim ra tat ca cac phan tu chi xuat hien 1 lan trong mang mot chieu',
+        params: {
+            n: 'Nhap so phan tu: ',
+        }
+    },
+    q27: {
+        content: 'Chuong trinh loai bo cac phan tu trung trong mang mot chieu',
+        params: {
+            n: 'Nhap so phan tu: ',
+        }
+    },
     q29: {
         content: 'Chuong trinh tim chuoi dai nhat',
         params: {
