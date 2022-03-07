@@ -4,6 +4,11 @@ class Fraction {
         this.denominator = _d;
     }
 
+    setFraction(x, y) {
+        this.numerator = x;
+        this.denominator = y;
+    }
+
     findGreatestCommonDivisor(x, y) {
         while (x != y) {
             if (x > y) x = x - y;
