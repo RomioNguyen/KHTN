@@ -13,8 +13,9 @@ class Exercise06 extends ExerciseBase {
 
     answer(params) {
         let sum = 0;
-        for (let i = 1; i <= params.n; i++)
+        for (let i = 1; i <= params.n; i++) {
             sum += (1 / (i * (i + 1)));
+        }
         console.log(`S(n) = ${sum}`);
     }
 }
