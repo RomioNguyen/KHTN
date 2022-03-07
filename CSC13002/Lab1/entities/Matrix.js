@@ -9,7 +9,7 @@ class Matrix {
     }
 
     validateInput(value, key) {
-        return validateUtils.isNumber(value, `Input at ${key}`)
+        return validateUtils.isNumber(value, `Phan tu ${key}`)
     }
 
     async askAddNumber(i, j, content) {

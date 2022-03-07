@@ -1,6 +1,7 @@
 'use strict';
 const ExerciseBase = require('./services/ExerciseBase');
 const validateUtils = require("./utils/validate");
+const Fraction = require("./entities/Fraction");
 
 class Exercise16 extends ExerciseBase {
     constructor() {
@@ -12,14 +13,17 @@ class Exercise16 extends ExerciseBase {
     }
 
     answer(params) {
-        let sum = 0;
         let crrDenominator = 0;
-
+        const sum = new Fraction(1, 1);
         for (let i = 1; i <= params.n; i++) {
             crrDenominator += i
-            sum += ((params.x * i) / crrDenominator)
+            if (i === 1) {
+                sum.setFraction((params.x * i), crrDenominator);
+            } else {
+                sum.plus(new Fraction((params.x * i), crrDenominator));
+            }
         }
-        console.log(`S(x, n) = ${sum}`);
+        console.log(`S(n) = ${sum.showFraction()}`);
     }
 }
 

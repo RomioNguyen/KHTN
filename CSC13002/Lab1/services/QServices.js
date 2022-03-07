@@ -14,7 +14,7 @@ class QServices {
         if (this.q.fnValidate(key, n)) {
             this.params[key] = n;
         } else {
-            console.log("Your input invalid. Please again!!!")
+            console.log("Nap loi. Hay nhap lai!!!")
             await this.ask(key, content);
         }
     }

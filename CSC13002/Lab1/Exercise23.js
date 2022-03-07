@@ -30,12 +30,12 @@ class Answer23 {
             }
         }
         const rs = arrRs.splice(index_start, (index_end - index_start + 1));
-        console.log('Sum:', this.best);
-        console.log('Array', rs);
+        console.log('Tong: ', this.best);
+        console.log('Mang: ', rs);
     }
 
     validateInput(value, key) {
-        return validateUtils.isNumber(value, `Input at ${key}`)
+        return validateUtils.isNumber(value, `Phan tu tai ${key}`)
     }
 
     async askInputDic(key, content) {

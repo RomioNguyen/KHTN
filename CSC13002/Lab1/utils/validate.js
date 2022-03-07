@@ -14,17 +14,17 @@ module.exports = {
     isNumber: (value, key) => {
         if (int_try_parse(value, null) !== null)
             return true
-        console.log(`${key} need a number`)
+        console.log(`${key} phai la so`)
         return false;
     },
     numBigger: (value, min = 0) => {
         const n = int_try_parse(value, null);
         if (n !== null) {
             if (n > min) return true
-            console.log(`Your input need bigger than ${min}`);
+            console.log(`So nhap phai lon hon ${min}`);
             return false;
         } else {
-            console.log('Your input need a number')
+            console.log('Phan tu phai la so')
             return false;
         }
     },
@@ -32,10 +32,10 @@ module.exports = {
         const n = int_try_parse(value, null);
         if (n !== null) {
             if ((n > min && n < max)) return true
-            console.log(`Your input need between ${min} and ${max}`);
+            console.log(`So phap phai o giua ${min} va ${max}`);
             return false;
         } else {
-            console.log('Your input need a number')
+            console.log('Phan tu phai la so')
             return false;
         }
     }

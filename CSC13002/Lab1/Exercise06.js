@@ -13,10 +13,10 @@ class Exercise06 extends ExerciseBase {
     }
 
     answer(params) {
-        let sum = new Fraction(1, 1);
+        const sum = new Fraction(1, 1);
         for (let i = 1; i <= params.n; i++) {
             if (i === 1) {
-                sum = sum.setFraction(1, (i * (i + 1)));
+                sum.setFraction(1, (i * (i + 1)));
             } else {
                 sum.plus(new Fraction(1, (i * (i + 1))));
             }

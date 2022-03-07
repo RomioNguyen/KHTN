@@ -12,7 +12,7 @@ class Answer26 {
 
 
     validateInput(key, value) {
-        return validateUtils.isNumber(value, `Input a ${key}`)
+        return validateUtils.isNumber(value, `Phan tu tai ${key}`)
     }
 
     handleAddRs(num) {

@@ -1,6 +1,7 @@
 'use strict';
 const ExerciseBase = require('./services/ExerciseBase');
 const validateUtils = require("./utils/validate");
+const Fraction = require("./entities/Fraction");
 
 class Exercise20 extends ExerciseBase {
     constructor() {
@@ -12,7 +13,7 @@ class Exercise20 extends ExerciseBase {
     }
 
     answer(params) {
-        let sum = 0;
+        const sum = new Fraction(1, 1);
         let crrDenominator = 1;
         let fromNum = 1;
 
@@ -23,13 +24,13 @@ class Exercise20 extends ExerciseBase {
             return rval;
         }
 
-        for (let i = 1; i <= params.n; i++) {
-            const to = (2 ** (i - 1));
+        for (let i = 0; i <= params.n; i++) {
+            const to = (2 * i + 1);
             crrDenominator = sFact(crrDenominator, fromNum, to);
-            sum += ((params.x * i) / crrDenominator);
+            sum.plus(new Fraction((params.x * (2 * i + 1)), crrDenominator))
             fromNum = (to + 1);
         }
-        console.log(`S(x, n) = ${sum}`);
+        console.log(`S(x, n) = ${sum.showFraction()}`);
     }
 }
 

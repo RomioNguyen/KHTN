@@ -20,7 +20,7 @@ class Fraction {
     plus(ps) {
         let newNumerator = this.numerator * ps.denominator + this.denominator * ps.numerator;
         let newDenominator = this.denominator * ps.denominator;
-        const greatestCommonDivisor = findGreatestCommonDivisor(newNumerator, newDenominator);
+        const greatestCommonDivisor = this.findGreatestCommonDivisor(newNumerator, newDenominator);
         this.numerator = newNumerator / greatestCommonDivisor;
         this.denominator = newDenominator / greatestCommonDivisor;
     }
