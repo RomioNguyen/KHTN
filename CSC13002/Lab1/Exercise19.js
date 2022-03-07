@@ -25,13 +25,9 @@ class Exercise19 extends ExerciseBase {
         }
 
         for (let i = 1; i <= params.n; i++) {
-            const to = (2 ** (i - 1));
+            const to = (2 * i);
             crrDenominator = sFact(crrDenominator, fromNum, to);
-            if (i === 1) {
-                sum.setFraction((params.x * i), crrDenominator);
-            } else {
-                sum.plus(new Fraction((params.x * i), crrDenominator));
-            }
+            sum.plus(new Fraction((params.x * 2 * i), crrDenominator));
             fromNum = (to + 1);
         }
         console.log(`S(x,n) = ${sum.showFraction()}`);

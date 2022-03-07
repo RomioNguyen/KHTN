@@ -30,8 +30,9 @@ class Exercise21 extends ExerciseBase {
 
         const numberNeedFind = await askFindNumber();
         const pos = matrix.find(parseInt(numberNeedFind));
-        console.log(pos)
-
+        console.log(`${numberNeedFind} can tim o vi tri ${pos}`);
+        console.log(`Gia tri nho nhat: ${matrix.min}`);
+        console.log(`Gia tri lon nhat: ${matrix.max}`);
     }
 }
 

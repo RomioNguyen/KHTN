@@ -23,7 +23,7 @@ class Exercise18 extends ExerciseBase {
                 sum.plus(new Fraction((params.x * i), crrDenominator));
             }
         }
-        console.log(`S(n) = ${sum.showFraction()}`);
+        console.log(`S(x,n) = ${sum.showFraction()}`);
     }
 }
 

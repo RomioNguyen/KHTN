@@ -6,6 +6,8 @@ class Matrix {
         this.n = _n;
         this.m = _m;
         this.matrix = [[], []];
+        this.min = Number.MAX_SAFE_INTEGER;
+        this.max = Number.MIN_SAFE_INTEGER;
     }
 
     validateInput(value, key) {
@@ -17,7 +19,10 @@ class Matrix {
             input.question(content, resolve)
         })
         if (this.validateInput(n, `(${i},${j})`)) {
-            this.matrix[i][j] = parseInt(n);
+            const num = parseInt(n);
+            this.matrix[i][j] = num;
+            if (this.min > num) this.min = num;
+            if (this.max < num) this.max = num;
         } else {
             await this.askAddNumber(i, j, content);
         }

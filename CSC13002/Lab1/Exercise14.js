@@ -15,7 +15,7 @@ class Exercise14 extends ExerciseBase {
         let sum = 0;
         for (let i = 1; i <= params.n; i++)
             sum += (params.x ** (2 * i + 1))
-        console.log(`T(x, n) = ${sum}`);
+        console.log(`S(n) = ${sum}`);
     }
 }
 
