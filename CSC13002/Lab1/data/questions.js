@@ -73,6 +73,60 @@ module.exports = {
             n: 'Nhap n ',
         }
     },
+    q13: {
+        content: 'Tinh S(x,n) = x^2 + x^4 +  … + x^(2n)',
+        params: {
+            x: 'Nhap x ',
+            n: 'Nhap n ',
+        }
+    },
+    q14: {
+        content: 'Tinh S(x,n) = x + x^3 +  … + x^(2n+1)',
+        params: {
+            x: 'Nhap x ',
+            n: 'Nhap n ',
+        }
+    },
+    q15: {
+        content: 'Tinh S(n) = 1 + 1/(1+2) + 1/(1+2+3) … + 1/(1+2+3+...+n)',
+        params: {
+            n: 'Nhap n ',
+        }
+    },
+    q16: {
+        content: 'Tinh S(x,n) = x + (x*2)/(1+2) + (x*3)/(1+2+3) … + (xn)/(1+2+3+...+n)',
+        params: {
+            x: 'Nhap x ',
+            n: 'Nhap n ',
+        }
+    },
+    q17: {
+        content: 'Tinh S(n) = n!',
+        params: {
+            n: 'Nhap n ',
+        }
+    },
+    q18: {
+        content: 'Tinh S(n) = x + (x*2)/2! + (x*3)/3! … + (xn)/(n)!',
+        params: {
+            x: 'Nhap x ',
+            n: 'Nhap n ',
+        }
+    },
+    q19: {
+        content: 'Tinh S(n) = 1 + (x*2)/2! + (x*4)/4! … + (x2n)/(2n)!',
+        params: {
+            x: 'Nhap x ',
+            n: 'Nhap n ',
+        }
+    },
+    q20: {
+        content: 'Tinh S(n) = 1 + x + (x*3)/3! + (x*5)/5! … + (x2n+1)/(2n+1)!',
+        params: {
+            x: 'Nhap x ',
+            n: 'Nhap n ',
+        }
+    },
     q21: {
         content: 'Chuong trinh nhập và ma trận A có n dòng và m cột. Tim max,min,tim vi trí k',
         params: {
