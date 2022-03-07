@@ -73,6 +73,25 @@ module.exports = {
             n: 'Nhap n ',
         }
     },
+    q21: {
+        content: 'Chuong trinh nhập và ma trận A có n dòng và m cột. Tim max,min,tim vi trí k',
+        params: {
+            n: 'Nhap so dong: ',
+            m: 'Nhap so cot: ',
+        }
+    },
+    q22: {
+        content: 'Chuong trinh tim mang con lien tuc co tong gia tri lon nhat trong mang so nguyen. ',
+        params: {
+            n: 'Nhap so phan tu: ',
+        }
+    },
+    q23: {
+        content: 'Chuong trinh tim mang con lien tuc co tong gia tri nho nhat trong mang so nguyen. ',
+        params: {
+            n: 'Nhap so phan tu: ',
+        }
+    },
     q24: {
         content: 'Chuong trinh tim vi tri cua mot gia tri trong mot mang da duoc sap xep. Neu khong tim thay, thi them gia tri nay vao vi tri duoc sap xep trong mang.',
         params: {

@@ -1,7 +1,7 @@
 const int_try_parse = function (val, default_val) {
     try {
         if (val != null) {
-            if (val.length > 0) {
+            if (`${val}`.length > 0) {
                 return parseInt(val);
             }
         }
@@ -12,14 +12,14 @@ const int_try_parse = function (val, default_val) {
 }
 module.exports = {
     isNumber: (value, key) => {
-        if (int_try_parse(value, null))
+        if (int_try_parse(value, null) !== null)
             return true
         console.log(`${key} need a number`)
         return false;
     },
     numBigger: (value, min = 0) => {
         const n = int_try_parse(value, null);
-        if (n) {
+        if (n !== null) {
             if (n > min) return true
             console.log(`Your input need bigger than ${min}`);
             return false;
@@ -30,7 +30,7 @@ module.exports = {
     },
     numBetween: (value, min = 0, max = 0) => {
         const n = int_try_parse(value, null);
-        if (n) {
+        if (n !== null) {
             if ((n > min && n < max)) return true
             console.log(`Your input need between ${min} and ${max}`);
             return false;

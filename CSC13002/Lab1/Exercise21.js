@@ -1,36 +1,38 @@
 'use strict';
 const ExerciseBase = require('./services/ExerciseBase');
 const validateUtils = require("./utils/validate");
+const Matrix = require("./entities/Matrix");
+const input = require("./utils/input");
 
-class Exercise20 extends ExerciseBase {
+class Exercise21 extends ExerciseBase {
     constructor() {
-        super('q20')
+        super('q21')
     }
 
     validate(key, value) {
-        return validateUtils.isNumber(key, value);
+        return validateUtils.isNumber(value, key);
     }
 
-    answer(params) {
-        let sum = 0;
-        let crrDenominator = 1;
-        let fromNum = 1;
+    async answer(params) {
+        const matrix = (new Matrix(params.n, params.m));
+        await matrix.inputMatrix();
+        matrix.showMatrix();
 
-        function sFact(from, initNumber, toNumber) {
-            let rval = from;
-            for (let i = initNumber; i <= toNumber; i++)
-                rval = rval * i;
-            return rval;
+        const askFindNumber = async () => {
+            const n = await new Promise(resolve => {
+                input.question('Nhap so can tim: ', resolve)
+            })
+            if (validateUtils.isNumber(n, 'So nhap')) {
+                return n;
+            }
+            return await askFindNumber();
         }
 
-        for (let i = 1; i <= params.n; i++) {
-            const to = (2 ** (i - 1));
-            crrDenominator = sFact(crrDenominator, fromNum, to);
-            sum += ((params.x * i) / crrDenominator);
-            fromNum = (to + 1);
-        }
-        console.log(`S(x, n) = ${sum}`);
+        const numberNeedFind = await askFindNumber();
+        const pos = matrix.find(parseInt(numberNeedFind));
+        console.log(pos)
+
     }
 }
 
-module.exports = (new Exercise20()).start();
+module.exports = (new Exercise21()).start();
