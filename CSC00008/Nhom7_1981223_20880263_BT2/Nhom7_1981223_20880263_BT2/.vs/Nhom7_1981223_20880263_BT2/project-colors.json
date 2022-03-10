@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d86f6b8f-714c-45e7-bd69-fd53275453f2": {
+      "ProjectGuid": "d86f6b8f-714c-45e7-bd69-fd53275453f2",
+      "DisplayName": "Nhom7_1981223_20880263_BT2.Services",
+      "ColorIndex": 0
+    },
+    "679d9406-16bb-41b4-8e3b-fa2b02f6a624": {
+      "ProjectGuid": "679d9406-16bb-41b4-8e3b-fa2b02f6a624",
+      "DisplayName": "Nhom7_1981223_20880263_BT2.Interfaces",
+      "ColorIndex": 1
+    },
+    "f22d2073-ed35-48df-ae7e-4fac73117ef6": {
+      "ProjectGuid": "f22d2073-ed35-48df-ae7e-4fac73117ef6",
+      "DisplayName": "Nhom7_1981223_20880263_BT2",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
