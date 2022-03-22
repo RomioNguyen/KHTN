@@ -1,6 +1,8 @@
 ﻿using System;
 using Nhom7_1981223_20880263_DA1.Interfaces.FileIO;
+using Nhom7_1981223_20880263_DA1.Interfaces.Question;
 using Nhom7_1981223_20880263_DA1.Services.FileIO;
+using Nhom7_1981223_20880263_DA1.Services.Question;
 
 namespace Nhom7_1981223_20880263_DA1
 {
@@ -10,9 +12,11 @@ namespace Nhom7_1981223_20880263_DA1
         private readonly string URL_QUESTION = "";
         //private readonly string URL_QUESTION = "C:\\Users\\Admin\\study\\KHTN\\CSC00008\\Nhom7_1981223_20880263_BT2\\Nhom7_1981223_20880263_BT2\\AppData";
         private readonly IFileIOServices _fileServices;
+        private readonly IQuestionServices _questionServices;
         public Program()
         {
             _fileServices = new FileIOServices();
+            _questionServices = new QuestionServices();
         }
         static void Main(string[] args)
         {
@@ -63,9 +67,8 @@ namespace Nhom7_1981223_20880263_DA1
 
         private static void StartRunQuestion(Program pro, string fileName, bool isFolderDataQuestion = true)
         {
-
-            //pro._questionServices.Run(fileName, isFolderDataQuestion);
-            Console.WriteLine("asdasdasda");
+            pro._questionServices.Run(fileName, isFolderDataQuestion);
+            Console.WriteLine("");
         }
     }
 }

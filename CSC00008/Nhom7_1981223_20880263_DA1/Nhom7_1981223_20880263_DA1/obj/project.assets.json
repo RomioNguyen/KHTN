@@ -158,11 +158,22 @@
           "bin/placeholder/Nhom7_1981223_20880263_DA1.Interfaces.dll": {}
         }
       },
+      "Nhom7_1981223_20880263_DA1.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Nhom7_1981223_20880263_DA1.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nhom7_1981223_20880263_DA1.Models.dll": {}
+        }
+      },
       "Nhom7_1981223_20880263_DA1.Services/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Nhom7_1981223_20880263_DA1.Interfaces": "1.0.0",
+          "Nhom7_1981223_20880263_DA1.Models": "1.0.0",
           "System.Configuration.ConfigurationManager": "5.0.0"
         },
         "compile": {
@@ -493,6 +504,11 @@
       "type": "project",
       "path": "../Nhom7_1981223_20880263_DA1.Interfaces/Nhom7_1981223_20880263_DA1.Interfaces.csproj",
       "msbuildProject": "../Nhom7_1981223_20880263_DA1.Interfaces/Nhom7_1981223_20880263_DA1.Interfaces.csproj"
+    },
+    "Nhom7_1981223_20880263_DA1.Models/1.0.0": {
+      "type": "project",
+      "path": "../Nhom7_1981223_20880263_DA1.Models/Nhom7_1981223_20880263_DA1.Models.csproj",
+      "msbuildProject": "../Nhom7_1981223_20880263_DA1.Models/Nhom7_1981223_20880263_DA1.Models.csproj"
     },
     "Nhom7_1981223_20880263_DA1.Services/1.0.0": {
       "type": "project",

@@ -29,3 +29,6 @@
 /Users/romionguyen/Documents/self/KHTN/KHTN/CSC00008/Nhom7_1981223_20880263_DA1/Nhom7_1981223_20880263_DA1/bin/Debug/net5.0/Nhom7_1981223_20880263_DA1.Services.pdb
 /Users/romionguyen/Documents/self/KHTN/KHTN/CSC00008/Nhom7_1981223_20880263_DA1/Nhom7_1981223_20880263_DA1/bin/Debug/net5.0/Nhom7_1981223_20880263_DA1.Interfaces.pdb
 /Users/romionguyen/Documents/self/KHTN/KHTN/CSC00008/Nhom7_1981223_20880263_DA1/Nhom7_1981223_20880263_DA1/obj/Debug/net5.0/Nhom7_1981223_20880263_DA1.csproj.CopyComplete
+/Users/romionguyen/Documents/self/KHTN/KHTN/CSC00008/Nhom7_1981223_20880263_DA1/Nhom7_1981223_20880263_DA1/bin/Debug/net5.0/Nhom7_1981223_20880263_DA1.dll.config
+/Users/romionguyen/Documents/self/KHTN/KHTN/CSC00008/Nhom7_1981223_20880263_DA1/Nhom7_1981223_20880263_DA1/bin/Debug/net5.0/Nhom7_1981223_20880263_DA1.Models.dll
+/Users/romionguyen/Documents/self/KHTN/KHTN/CSC00008/Nhom7_1981223_20880263_DA1/Nhom7_1981223_20880263_DA1/bin/Debug/net5.0/Nhom7_1981223_20880263_DA1.Models.pdb

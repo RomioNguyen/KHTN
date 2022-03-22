@@ -37,8 +37,10 @@ namespace Nhom7_1981223_20880263_DA1.Services.FileIO
 
         public string GetUrlFile(string fileName)
         {
+            string baseUrl = Directory.GetParent(System.IO.Path.GetDirectoryName(Assembly.GetEntryAssembly().Location)).ToString();
             string fullNameFile = string.Format(@"{0}\{1}.{2}", ConfigurationManager.AppSettings.Get(PREFIX), fileName, ConfigurationManager.AppSettings.Get(EXTENSION));
-            string baseDirectory = Directory.GetParent(System.IO.Path.GetDirectoryName(Assembly.GetEntryAssembly().Location)).ToString().Replace("\\bin\\Debug", "");
+            string baseDirectory = baseUrl.Replace("\\bin\\Debug", "");
+            baseDirectory = baseUrl.Replace("/bin/Debug", "");
             return Path.Combine(baseDirectory, fullNameFile);
         }
     }

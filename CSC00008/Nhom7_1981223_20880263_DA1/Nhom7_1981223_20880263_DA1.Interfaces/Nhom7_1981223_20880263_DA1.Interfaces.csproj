@@ -4,4 +4,10 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Question\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Question\" />
+  </ItemGroup>
 </Project>

@@ -131,9 +131,15 @@
           "Nhom7_1981223_20880263_DA1.Interfaces.dll": {}
         }
       },
+      "Nhom7_1981223_20880263_DA1.Models/1.0.0": {
+        "runtime": {
+          "Nhom7_1981223_20880263_DA1.Models.dll": {}
+        }
+      },
       "Nhom7_1981223_20880263_DA1.Services/1.0.0": {
         "dependencies": {
           "Nhom7_1981223_20880263_DA1.Interfaces": "1.0.0",
+          "Nhom7_1981223_20880263_DA1.Models": "1.0.0",
           "System.Configuration.ConfigurationManager": "5.0.0"
         },
         "runtime": {
@@ -212,6 +218,11 @@
       "hashPath": "system.windows.extensions.5.0.0.nupkg.sha512"
     },
     "Nhom7_1981223_20880263_DA1.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Nhom7_1981223_20880263_DA1.Models/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

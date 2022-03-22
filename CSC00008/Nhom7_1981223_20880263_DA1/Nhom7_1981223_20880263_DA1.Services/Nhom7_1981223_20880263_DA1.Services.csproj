@@ -7,12 +7,15 @@
   <ItemGroup>
     <None Remove="FileIO\" />
     <None Remove="System.Configuration.ConfigurationManager" />
+    <None Remove="Question\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="FileIO\" />
+    <Folder Include="Question\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Nhom7_1981223_20880263_DA1.Interfaces\Nhom7_1981223_20880263_DA1.Interfaces.csproj" />
+    <ProjectReference Include="..\Nhom7_1981223_20880263_DA1.Models\Nhom7_1981223_20880263_DA1.Models.csproj" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />

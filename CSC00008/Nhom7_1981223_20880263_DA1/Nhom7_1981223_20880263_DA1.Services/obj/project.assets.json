@@ -157,6 +157,16 @@
         "runtime": {
           "bin/placeholder/Nhom7_1981223_20880263_DA1.Interfaces.dll": {}
         }
+      },
+      "Nhom7_1981223_20880263_DA1.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Nhom7_1981223_20880263_DA1.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nhom7_1981223_20880263_DA1.Models.dll": {}
+        }
       }
     }
   },
@@ -479,11 +489,17 @@
       "type": "project",
       "path": "../Nhom7_1981223_20880263_DA1.Interfaces/Nhom7_1981223_20880263_DA1.Interfaces.csproj",
       "msbuildProject": "../Nhom7_1981223_20880263_DA1.Interfaces/Nhom7_1981223_20880263_DA1.Interfaces.csproj"
+    },
+    "Nhom7_1981223_20880263_DA1.Models/1.0.0": {
+      "type": "project",
+      "path": "../Nhom7_1981223_20880263_DA1.Models/Nhom7_1981223_20880263_DA1.Models.csproj",
+      "msbuildProject": "../Nhom7_1981223_20880263_DA1.Models/Nhom7_1981223_20880263_DA1.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "Nhom7_1981223_20880263_DA1.Interfaces >= 1.0.0",
+      "Nhom7_1981223_20880263_DA1.Models >= 1.0.0",
       "System.Configuration.ConfigurationManager >= 5.0.0"
     ]
   },
@@ -519,6 +535,9 @@
           "projectReferences": {
             "/Users/romionguyen/Documents/self/KHTN/KHTN/CSC00008/Nhom7_1981223_20880263_DA1/Nhom7_1981223_20880263_DA1.Interfaces/Nhom7_1981223_20880263_DA1.Interfaces.csproj": {
               "projectPath": "/Users/romionguyen/Documents/self/KHTN/KHTN/CSC00008/Nhom7_1981223_20880263_DA1/Nhom7_1981223_20880263_DA1.Interfaces/Nhom7_1981223_20880263_DA1.Interfaces.csproj"
+            },
+            "/Users/romionguyen/Documents/self/KHTN/KHTN/CSC00008/Nhom7_1981223_20880263_DA1/Nhom7_1981223_20880263_DA1.Models/Nhom7_1981223_20880263_DA1.Models.csproj": {
+              "projectPath": "/Users/romionguyen/Documents/self/KHTN/KHTN/CSC00008/Nhom7_1981223_20880263_DA1/Nhom7_1981223_20880263_DA1.Models/Nhom7_1981223_20880263_DA1.Models.csproj"
             }
           }
         }

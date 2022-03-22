@@ -1,0 +1,12 @@
+/Users/romionguyen/Documents/self/KHTN/KHTN/CSC00008/Nhom7_1981223_20880263_DA1/Nhom7_1981223_20880263_DA1.Models/bin/Debug/net5.0/Nhom7_1981223_20880263_DA1.Models.deps.json
+/Users/romionguyen/Documents/self/KHTN/KHTN/CSC00008/Nhom7_1981223_20880263_DA1/Nhom7_1981223_20880263_DA1.Models/bin/Debug/net5.0/Nhom7_1981223_20880263_DA1.Models.dll
+/Users/romionguyen/Documents/self/KHTN/KHTN/CSC00008/Nhom7_1981223_20880263_DA1/Nhom7_1981223_20880263_DA1.Models/bin/Debug/net5.0/ref/Nhom7_1981223_20880263_DA1.Models.dll
+/Users/romionguyen/Documents/self/KHTN/KHTN/CSC00008/Nhom7_1981223_20880263_DA1/Nhom7_1981223_20880263_DA1.Models/bin/Debug/net5.0/Nhom7_1981223_20880263_DA1.Models.pdb
+/Users/romionguyen/Documents/self/KHTN/KHTN/CSC00008/Nhom7_1981223_20880263_DA1/Nhom7_1981223_20880263_DA1.Models/obj/Debug/net5.0/Nhom7_1981223_20880263_DA1.Models.csproj.AssemblyReference.cache
+/Users/romionguyen/Documents/self/KHTN/KHTN/CSC00008/Nhom7_1981223_20880263_DA1/Nhom7_1981223_20880263_DA1.Models/obj/Debug/net5.0/Nhom7_1981223_20880263_DA1.Models.GeneratedMSBuildEditorConfig.editorconfig
+/Users/romionguyen/Documents/self/KHTN/KHTN/CSC00008/Nhom7_1981223_20880263_DA1/Nhom7_1981223_20880263_DA1.Models/obj/Debug/net5.0/Nhom7_1981223_20880263_DA1.Models.AssemblyInfoInputs.cache
+/Users/romionguyen/Documents/self/KHTN/KHTN/CSC00008/Nhom7_1981223_20880263_DA1/Nhom7_1981223_20880263_DA1.Models/obj/Debug/net5.0/Nhom7_1981223_20880263_DA1.Models.AssemblyInfo.cs
+/Users/romionguyen/Documents/self/KHTN/KHTN/CSC00008/Nhom7_1981223_20880263_DA1/Nhom7_1981223_20880263_DA1.Models/obj/Debug/net5.0/Nhom7_1981223_20880263_DA1.Models.csproj.CoreCompileInputs.cache
+/Users/romionguyen/Documents/self/KHTN/KHTN/CSC00008/Nhom7_1981223_20880263_DA1/Nhom7_1981223_20880263_DA1.Models/obj/Debug/net5.0/Nhom7_1981223_20880263_DA1.Models.dll
+/Users/romionguyen/Documents/self/KHTN/KHTN/CSC00008/Nhom7_1981223_20880263_DA1/Nhom7_1981223_20880263_DA1.Models/obj/Debug/net5.0/ref/Nhom7_1981223_20880263_DA1.Models.dll
+/Users/romionguyen/Documents/self/KHTN/KHTN/CSC00008/Nhom7_1981223_20880263_DA1/Nhom7_1981223_20880263_DA1.Models/obj/Debug/net5.0/Nhom7_1981223_20880263_DA1.Models.pdb
