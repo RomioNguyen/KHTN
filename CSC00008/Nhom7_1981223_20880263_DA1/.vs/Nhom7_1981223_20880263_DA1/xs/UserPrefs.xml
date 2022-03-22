@@ -1,21 +1,29 @@
 ﻿<Properties StartupConfiguration="{D7255021-6E91-421B-8571-EC30DF5DA79C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Nhom7_1981223_20880263_DA1/Program.cs">
+  <MonoDevelop.Ide.ItemProperties.Nhom7__1981223__20880263__DA1.Interfaces FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Nhom7__1981223__20880263__DA1.Models FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Nhom7__1981223__20880263__DA1.Services FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Nhom7_1981223_20880263_DA1/appsettings.json">
     <Files>
-      <File FileName="Nhom7_1981223_20880263_DA1/Program.cs" Line="1" Column="1" />
+      <File FileName="Nhom7_1981223_20880263_DA1/Program.cs" Line="61" Column="1" />
+      <File FileName="Nhom7_1981223_20880263_DA1.Models/Class1.cs" Line="9" Column="1" />
+      <File FileName="Nhom7_1981223_20880263_DA1/Nhom7_1981223_20880263_DA1.csproj" Line="19" Column="1" />
+      <File FileName="Nhom7_1981223_20880263_DA1.Services/FileIO/FileIOServices.cs" Line="20" Column="14" />
+      <File FileName="Nhom7_1981223_20880263_DA1.Interfaces/FileIO/IFileIOServices.cs" Line="11" Column="1" />
+      <File FileName="Nhom7_1981223_20880263_DA1/mono_crash.11a67480d0.0.json" Line="64" Column="2" />
+      <File FileName="Nhom7_1981223_20880263_DA1/appsettings.json" Line="12" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Nhom7_1981223_20880263_DA1" expanded="True">
-            <Node name="Nhom7_1981223_20880263_DA1" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
-          </Node>
+          <Node name="Nhom7_1981223_20880263_DA1" expanded="True" />
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Nhom7__1981223__20880263__DA1 FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Nhom7__1981223__20880263__DA1 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

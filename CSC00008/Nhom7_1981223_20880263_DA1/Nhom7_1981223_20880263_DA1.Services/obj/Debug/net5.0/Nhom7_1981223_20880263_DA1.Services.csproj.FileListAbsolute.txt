@@ -1,0 +1,15 @@
+/Users/romionguyen/Documents/self/KHTN/KHTN/CSC00008/Nhom7_1981223_20880263_DA1/Nhom7_1981223_20880263_DA1.Services/bin/Debug/net5.0/Nhom7_1981223_20880263_DA1.Services.deps.json
+/Users/romionguyen/Documents/self/KHTN/KHTN/CSC00008/Nhom7_1981223_20880263_DA1/Nhom7_1981223_20880263_DA1.Services/bin/Debug/net5.0/Nhom7_1981223_20880263_DA1.Services.dll
+/Users/romionguyen/Documents/self/KHTN/KHTN/CSC00008/Nhom7_1981223_20880263_DA1/Nhom7_1981223_20880263_DA1.Services/bin/Debug/net5.0/ref/Nhom7_1981223_20880263_DA1.Services.dll
+/Users/romionguyen/Documents/self/KHTN/KHTN/CSC00008/Nhom7_1981223_20880263_DA1/Nhom7_1981223_20880263_DA1.Services/bin/Debug/net5.0/Nhom7_1981223_20880263_DA1.Services.pdb
+/Users/romionguyen/Documents/self/KHTN/KHTN/CSC00008/Nhom7_1981223_20880263_DA1/Nhom7_1981223_20880263_DA1.Services/bin/Debug/net5.0/Nhom7_1981223_20880263_DA1.Interfaces.dll
+/Users/romionguyen/Documents/self/KHTN/KHTN/CSC00008/Nhom7_1981223_20880263_DA1/Nhom7_1981223_20880263_DA1.Services/bin/Debug/net5.0/Nhom7_1981223_20880263_DA1.Interfaces.pdb
+/Users/romionguyen/Documents/self/KHTN/KHTN/CSC00008/Nhom7_1981223_20880263_DA1/Nhom7_1981223_20880263_DA1.Services/obj/Debug/net5.0/Nhom7_1981223_20880263_DA1.Services.csproj.AssemblyReference.cache
+/Users/romionguyen/Documents/self/KHTN/KHTN/CSC00008/Nhom7_1981223_20880263_DA1/Nhom7_1981223_20880263_DA1.Services/obj/Debug/net5.0/Nhom7_1981223_20880263_DA1.Services.GeneratedMSBuildEditorConfig.editorconfig
+/Users/romionguyen/Documents/self/KHTN/KHTN/CSC00008/Nhom7_1981223_20880263_DA1/Nhom7_1981223_20880263_DA1.Services/obj/Debug/net5.0/Nhom7_1981223_20880263_DA1.Services.AssemblyInfoInputs.cache
+/Users/romionguyen/Documents/self/KHTN/KHTN/CSC00008/Nhom7_1981223_20880263_DA1/Nhom7_1981223_20880263_DA1.Services/obj/Debug/net5.0/Nhom7_1981223_20880263_DA1.Services.AssemblyInfo.cs
+/Users/romionguyen/Documents/self/KHTN/KHTN/CSC00008/Nhom7_1981223_20880263_DA1/Nhom7_1981223_20880263_DA1.Services/obj/Debug/net5.0/Nhom7_1981223_20880263_DA1.Services.csproj.CoreCompileInputs.cache
+/Users/romionguyen/Documents/self/KHTN/KHTN/CSC00008/Nhom7_1981223_20880263_DA1/Nhom7_1981223_20880263_DA1.Services/obj/Debug/net5.0/Nhom7_1981223_20880263_DA1.Services.csproj.CopyComplete
+/Users/romionguyen/Documents/self/KHTN/KHTN/CSC00008/Nhom7_1981223_20880263_DA1/Nhom7_1981223_20880263_DA1.Services/obj/Debug/net5.0/Nhom7_1981223_20880263_DA1.Services.dll
+/Users/romionguyen/Documents/self/KHTN/KHTN/CSC00008/Nhom7_1981223_20880263_DA1/Nhom7_1981223_20880263_DA1.Services/obj/Debug/net5.0/ref/Nhom7_1981223_20880263_DA1.Services.dll
+/Users/romionguyen/Documents/self/KHTN/KHTN/CSC00008/Nhom7_1981223_20880263_DA1/Nhom7_1981223_20880263_DA1.Services/obj/Debug/net5.0/Nhom7_1981223_20880263_DA1.Services.pdb

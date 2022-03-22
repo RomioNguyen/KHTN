@@ -1,0 +1,70 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net5.0": []
+  },
+  "packageFolders": {
+    "/Users/romionguyen/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/romionguyen/Documents/self/KHTN/KHTN/CSC00008/Nhom7_1981223_20880263_DA1/Nhom7_1981223_20880263_DA1.Interfaces/Nhom7_1981223_20880263_DA1.Interfaces.csproj",
+      "projectName": "Nhom7_1981223_20880263_DA1.Interfaces",
+      "projectPath": "/Users/romionguyen/Documents/self/KHTN/KHTN/CSC00008/Nhom7_1981223_20880263_DA1/Nhom7_1981223_20880263_DA1.Interfaces/Nhom7_1981223_20880263_DA1.Interfaces.csproj",
+      "packagesPath": "/Users/romionguyen/.nuget/packages/",
+      "outputPath": "/Users/romionguyen/Documents/self/KHTN/KHTN/CSC00008/Nhom7_1981223_20880263_DA1/Nhom7_1981223_20880263_DA1.Interfaces/obj/",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "/Users/romionguyen/.config/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/AltSourceInternal/_packaging/AltSourceInternal%40Local/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
